@@ -3,18 +3,20 @@
 build/
 /bin/
 bin/
-!gradle/wrapper/gradle-wrapper.jar
 
 # --- [ Java / IDEs ] ---
 *.class
 *.log
-*.jar
 *.war
 *.zip
 .project
 .classpath
 .settings/
 .factorypath
+
+# Exception for gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+*.jar
 
 # IntelliJ IDEA
 .idea/
